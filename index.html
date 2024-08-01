@@ -25,6 +25,7 @@
    <!-- Script
    ================================================== -->
 	<script src="js/modernizr.js"></script>
+	<script src="main.js"></script>
 
    <!-- Favicons
 	================================================== -->
@@ -59,18 +60,10 @@
       <div class="row banner">
          <div class="banner-text">
             <h1 class="responsive-headline">Hi, I'm Aman Takher</h1>
-            <h3>I'm a Manila based <span>graphic designer</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and
-            effective visual identities for companies of all sizes around the globe. Let's <a class="smoothscroll" href="#about">start scrolling</a>
-            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <p>and this page has been viewed <a id="counter"></a> times :) </p>
             <hr />
             <ul class="social">
-               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-               <li><a href="#"><i class="fa fa-skype"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/amanpreet-takher-97016617a"><i class="fa fa-linkedin"></i></a></li>
             </ul>
          </div>
       </div>
@@ -98,7 +91,7 @@
 
             <h2>About Me</h2>
 
-            <p>Hi, I'm Amanpreet Singh Takher, Service Desk Analyst at ESRI Canada. I build this site to showcase my understanding of Azure cloud services.
+            <p>Hi, I'm Amanpreet Singh Takher, IT Operations Analyst at ESRI Canada. I build this site to showcase my understanding of Azure cloud services.
             </p>
 
             <div class="row">
@@ -111,63 +104,14 @@
 						   <span>Scarborough, ON, Canada<br>
                      </span><br>
 						   <span>647-355-3339</span><br>
-                     <span>anyone@website.com</span>
+                     <span>amanpreet.takher@gmail.com</span>
 					   </p>
 
                </div>
 
                <div class="columns download">
                   <p>
-				 
-                     <!-- <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a> -->
-					<!-- <a href="http://www.takher.ca/$web/styles.css" target="_blank" download="styles.css" class="button"><button type="btn"><i class="fa fa-download"></i>Download Resume</button></a> -->
-				
-					<button type = "button" onclick = "startDownload()"> Download1 </button>
-               
-
-				
-					
-		<!--			 <textarea id="text">
-             Welcome to GeeksforGeeks
-         </textarea>
-					<input type="button" id="btn"
-                value="Download" />
-				
-				<script>
-				function download(file, text) {
-             
-                //creating an invisible element
-                var element = document.createElement('a');
-                element.setAttribute('href',
-                'data:text/plain;charset=utf-8, '
-                + encodeURIComponent(text));
-                element.setAttribute('download', file);
-             
-                // Above code is equivalent to
-                // <a href="path of file" download="file name">
-             
-                document.body.appendChild(element);
-             
-                //onClick property
-                element.click();
-             
-                document.body.removeChild(element);
-            }
-             
-            // Start file download.
-            document.getElementById("btn")
-            .addEventListener("click", function() {
-                // Generate download of hello.txt
-                // file with some content
-                var text = document.getElementById("text").value;
-                var filename = "gfg";
-             
-                download(filename, text);
-            }, false);
-
-			</script>
-			
-	-->		
+						<button type="btn" id = "downloadButton"><i class="fa fa-download"></i> Download Resume</button>	
                   </p>
                </div>
 
@@ -202,9 +146,11 @@
 
                   <h3>MICROSOFT CERTIFIED: AZURE ADMINISTRATOR ASSOCIATE (AZ - 104) </h3>
                   <p  <em class="date">April 2023</em></p>
-				  <h3>MICROSOFT CERTIFIED: AZURE FUNDAMENTALS (AZ - 900)</h3>
+						<h3>Hashicorp CERTIFIED: Terraform ASSOCIATE (003) </h3>
+                  <p  <em class="date">November 2023</em></p>
+				  		<h3>MICROSOFT CERTIFIED: AZURE FUNDAMENTALS (AZ - 900)</h3>
                   <p  <em class="date">December 2022</em></p>
-				  <h3>COMPTIA A+ CERTIFIED PROFESSIONAL</h3>
+				  		<h3>COMPTIA A+ CERTIFIED PROFESSIONAL</h3>
                   <p  <em class="date">January 2021</em></p>
                </div>
 
@@ -231,16 +177,31 @@
 
                <div class="twelve columns">
 
+
+						<h3>Software Engineering Technology,</b> McMaster university</h3>
+                  <p class="info">Advanced Software Development and Cloud Solutions <span>&bull;</span> <em class="date">August 2026</em></p>
+							<p> With a focus on Software Engineering Technology in my B.Tech program at McMaster University, I've acquired in-depth knowledge of software design, 
+								development, and advanced technologies. My coursework has immersed me in object-oriented programming languages such as Java, Python, and C++, 
+								preparing me to develop robust and scalable software applications. I have explored cutting-edge topics such as artificial intelligence (AI) and neural
+								networks, learning how to implement machine learning algorithms and integrate AI functionalities into software systems. Additionally, I have gained
+								proficiency in advanced web programming techniques, including frameworks like React.js and Node.js, enabling me to create dynamic and interactive web 
+								applications. Through collaborative projects and practical assignments, I've honed my problem-solving abilities and adapted these skills to meet the
+								evolving demands of the tech industry. Additionally, my studies have included cloud computing technologies, where I've learned to deploy and manage 
+								applications on cloud platforms such as AWS and Azure. This comprehensive education has equipped me with the expertise to innovate and thrive in the field of software
+								engineering.
+							</p>
+
                   <h3>COMPUTER ENGINEERING TECHNOLOGY,</b> SENECA COLLEGE</h3>
-                  <p class="info">Master in Graphic Design <span>&bull;</span> <em class="date">August 2020</em></p>
+                  <p class="info">IT Infrastructure and Troubleshooting <span>&bull;</span> <em class="date">May 2020</em></p>
+							<p> With a Computer Engineering Technology Diploma, I have gained a comprehensive understanding of computer hardware, software development, 
+								and network systems. My strong foundation in programming languages such as C++, Java, and Python allows me to design and develop software 
+								applications. I am skilled in computer architecture, digital electronics, and embedded systems, enabling me to work with hardware 
+								components and implement efficient solutions. Additionally, my knowledge of network protocols, cybersecurity principles, and database 
+								management equips me to design and maintain secure and scalable network infrastructures. Overall, I bring a combination of technical 
+								expertise, problem-solving abilities, and adaptability, making me well-prepared for various technology-driven roles.
+							</p>
 
-                  <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                  ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                  Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
-                  </p>
-
+						
                </div>
 
             </div> <!-- item end -->
@@ -265,15 +226,8 @@
 
                <div class="twelve columns">
 
-                  <h3>Awesome Design Studio</h3>
-                  <p class="info">Senior UX Designer <span>&bull;</span> <em class="date">March 2010 - Present</em></p>
-
-                  <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                  ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                  Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
-                  </p>
+                  <h3>Esri Canada</h3>
+                  <p class="info">IT Operations Analyst <span>&bull;</span> <em class="date">October 2021 - Present</em></p>
 
                </div>
 
@@ -283,15 +237,30 @@
 
                <div class="twelve columns">
 
-                  <h3>Super Cool Studio</h3>
-                  <p class="info">UX Designer <span>&bull;</span> <em class="date">March 2007 - February 2010</em></p>
+                  <h3>Bank of Montreal</h3>
+                  <p class="info">Technical Support Specialist <span>&bull;</span> <em class="date">April 2021 - October 2021</em></p>
 
-                  <p>
-                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                  ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
-                  </p>
+               </div>
+
+            </div> <!-- item end -->
+
+				<div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>MT. Sinai Hospital</h3>
+                  <p class="info">Telecom Analyst <span>&bull;</span> <em class="date">January 2021 - March 2021</em></p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+				<div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Esri Canada</h3>
+                  <p class="info">Service Desk Analyst <span>&bull;</span> <em class="date">May 2020 - December 2020</em></p>
 
                </div>
 
@@ -313,21 +282,20 @@
 
          <div class="nine columns main-col">
 
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-            voluptatem sequi nesciunt.
+            <p>Experienced in incident management, user support, troubleshooting, ticket tracking, 
+					remote assistance, knowledgebase creation, software management, escalation handling, documentation, diagnostic 
+					testing, and providing technical support via phone and email. 
             </p>
 
 				<div class="bars">
 
 				   <ul class="skills">
-					   <li><span class="bar-expand photoshop"></span><em>Photoshop</em></li>
-                  <li><span class="bar-expand illustrator"></span><em>Illustrator</em></li>
-						<li><span class="bar-expand wordpress"></span><em>Wordpress</em></li>
-						<li><span class="bar-expand css"></span><em>CSS</em></li>
-						<li><span class="bar-expand html5"></span><em>HTML5</em></li>
-                  <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
+					   <li><span class="bar-expand photoshop"></span><em>Azure</em></li>
+                  <li><span class="bar-expand illustrator"></span><em>Salesforce / SAP / SharePoint</em></li>
+						<li><span class="bar-expand wordpress"></span><em>Office365 / MS Teams / Zoom</em></li>
+						<li><span class="bar-expand css"></span><em>Windows 10 / macOS / iOS</em></li>
+						<li><span class="bar-expand html5"></span><em>SQL</em></li>
+                  <li><span class="bar-expand jquery"></span><em>Terraform</em></li>
 					</ul>
 
 				</div><!-- end skill-bars -->
@@ -353,9 +321,7 @@
 
             <div class="ten columns">
 
-                  <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                  eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                  voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                  <p class="lead">WIP
                   </p>
 
             </div>
@@ -416,10 +382,9 @@
 
 					   <h4>Address and Phone</h4>
 					   <p class="address">
-						   Jonathan Doe<br>
-						   1600 Amphitheatre Parkway <br>
-						   Mountain View, CA 94043 US<br>
-						   <span>(123) 456-7890</span>
+						   Amanpreet Takher<br>
+						   Scarborough,ON, Canada <br>
+						   <span></span>amanpreet.takher@gmail.com
 					   </p>
 
 				   </div>
@@ -431,19 +396,17 @@
                   <ul id="twitter">
                      <li>
                         <span>
-                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
+                        
+                      
                         </span>
-                        <b><a href="#">2 Days Ago</a></b>
+                        <b></b>
                      </li>
                      <li>
                         <span>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
+                        
+                        
                         </span>
-                        <b><a href="#">3 Days Ago</a></b>
+                  
                      </li>
                   </ul>
 
@@ -465,18 +428,13 @@
          <div class="twelve columns">
 
             <ul class="social-links">
-               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-               <li><a href="#"><i class="fa fa-skype"></i></a></li>
+
+               <li><a href="https://www.linkedin.com/in/amanpreet-takher-97016617a"><i class="fa fa-linkedin"></i></a></li>
             </ul>
 
             <ul class="copyright">
-               <li>&copy; Copyright 2014 CeeVee</li>
-               <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>   
+              <!-- <li>&copy; Copyright</li>-->
+              <!-- <li>Design by Aman</a></li>   -->
             </ul>
 
          </div>
@@ -498,35 +456,7 @@
    <script src="js/jquery.fittext.js"></script>
    <script src="js/magnific-popup.js"></script>
    <script src="js/init.js"></script>
+	<script src="js/download.js"></script>
 
 </body>
-
-   <script>  
-
-
-
-
-   
-  /*    async function startDownload() {
-         // get data using axios
-         let results = await axios({
-            url: "https://media.geeksforgeeks.org/wp-content/uploads/gfg-40.png",
-            method: 'GET',
-            responseType: 'blob'
-         })
-         let hidden_a = document.createElement('a');
-         hidden_a.href = window.URL.createObjectURL(new Blob([results.data]));
-         hidden_a.setAttribute('download', 'download_image.txt');
-         document.body.appendChild(hidden_a);
-         hidden_a.click();
-		 
-      }
-	  
-	  */
-
-     
-	  
-	  
-   </script>
-
 </html>
