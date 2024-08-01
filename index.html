@@ -91,7 +91,7 @@
 
             <h2>About Me</h2>
 
-            <p>Hi, I'm Amanpreet Singh Takher, IT Operations Analyst at ESRI Canada. I build this site to showcase my understanding of Azure cloud services.
+            <p>Hi, I'm Aman Takher, IT Operations Analyst at ESRI Canada. I build this site to showcase my understanding of Azure cloud services.
             </p>
 
             <div class="row">
@@ -113,7 +113,10 @@
                   <p>
 						<button type="btn" id = "downloadButton"><i class="fa fa-download"></i> Download Resume</button>	
                   </p>
-               </div>
+						<p>
+							<a href="https://cloudresumechallenge724.blob.core.windows.net/resumefile/Amanpreet Takher Resume_2023-V2.pdf" target="_blank" ><button type="btn"><i class="fa fa-download"></i> View Resume</button></a> 
+						</p>
+					</div>
 
             </div> <!-- end row -->
 
@@ -321,7 +324,7 @@
 
             <div class="ten columns">
 
-                  <p class="lead">WIP
+                  <p class="lead"> Please leave your details below and I will get back to you.
                   </p>
 
             </div>
@@ -333,7 +336,7 @@
             <div class="eight columns">
 
                <!-- form -->
-               <form action="" method="post" id="contactForm" name="contactForm">
+               <form  id="contact-form" name="contactForm">
 					<fieldset>
 
                   <div>
@@ -357,9 +360,9 @@
                   </div>
 
                   <div>
-                     <button class="submit">Submit</button>
+                     <button type="submit" class="submit">Submit</button>
                      <span id="image-loader">
-                        <img alt="" src="images/loader.gif">
+                        <!-- <img alt="" src="images/loader.gif"> -->
                      </span>
                   </div>
 
@@ -389,28 +392,6 @@
 
 				   </div>
 
-               <div class="widget widget_tweets">
-
-                  <h4 class="widget-title">Latest Tweets</h4>
-
-                  <ul id="twitter">
-                     <li>
-                        <span>
-                        
-                      
-                        </span>
-                        <b></b>
-                     </li>
-                     <li>
-                        <span>
-                        
-                        
-                        </span>
-                  
-                     </li>
-                  </ul>
-
-		         </div>
 
             </aside>
 
@@ -448,6 +429,7 @@
    <!-- Java Script
    ================================================== -->
    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 
@@ -457,6 +439,7 @@
    <script src="js/magnific-popup.js"></script>
    <script src="js/init.js"></script>
 	<script src="js/download.js"></script>
+	<script src="js/email.js"></script>
 
 </body>
 </html>
